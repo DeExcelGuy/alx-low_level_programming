@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
-*Using puts to print
+*main is the entry point
 */
 
 int main(void)

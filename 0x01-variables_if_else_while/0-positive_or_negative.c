@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 /**
- *DeExcelGuy was here
  * main - is an entry point
  *
  * Return: 0

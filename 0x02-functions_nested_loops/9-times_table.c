@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - prints every minute of the day of Jack Bauer
- *
+ * @c: moins chere
  * Return: 0.
  */
 

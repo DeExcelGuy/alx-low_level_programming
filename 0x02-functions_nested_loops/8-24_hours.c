@@ -12,30 +12,19 @@ void jack_bauer(void)
 
 	for (h = 0; h < 24; h++)
 	{
-	i = h / 10;
-	j = h % 10;
-	for (m = 0; m < 60; m++)
-	{
-	k = m / 10;
-	l = m % 10;
-	_putchar('0' + i);
-	_putchar('0' + j);
-	_putchar(':');
-	_putchar('0' + k);
-	_putchar('0' + l);
-	_putchar('\n');
-	}
+		i = h / 10;
+		j = h % 10;
+		for (m = 0; m < 60; m++)
+		{
+		k = m / 10;
+		l = m % 10;
+		_putchar('0' + i);
+		_putchar('0' + j);
+		_putchar(':');
+		_putchar('0' + k);
+		_putchar('0' + l);
+		_putchar('\n');
+		}
 	}
 }
 
-int print_last_digit(int n)
-{
-	int l, p;
-
-	l = n % 10;
-	if (l <  0)
-	l = -l;
-	p = '0' + l;
-	_putchar(p);
-	return (l);
-}
